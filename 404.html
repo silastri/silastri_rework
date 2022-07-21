@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html class="m-0 p-0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="m-0 p-0">
+    <div class="p-2 bg-zinc-100 shadow-md sticky top-0">
+      <nav class="navigation flex flex-col sm:flex-row justify-between">
+        <img
+          class="w-auto max-h-10 hover:scale-110"
+          src="./images/logo_silastri.png"
+          alt="Logo Silastri"
+        />
+
+        <ul class="flex flex-wrap justify-center items-center text-teal-600">
+          <li
+            class="py-1 px-3 rounded-md hover:bg-teal-600 hover:text-white hover:rounded-md transition ease-in-out delay-100"
+          >
+            <a href="./index.html"
+              ><i class="fa-solid fa-house pr-2"></i>Beranda</a
+            >
+          </li>
+          <li
+            class="py-1 px-3 rounded-md hover:bg-teal-600 hover:text-white hover:rounded-md transition ease-in-out delay-100"
+          >
+            <a href="./informasi-angkatan.html"
+              ><i class="fa-solid fa-bell pr-2"></i>Informasi</a
+            >
+          </li>
+          <li
+            class="py-1 px-3 rounded-md hover:bg-teal-600 hover:text-white hover:rounded-md transition ease-in-out delay-100"
+          >
+            <a href="./tentang-kami.html"
+              ><i class="fa-solid fa-circle-info pr-2"></i>Tentang</a
+            >
+          </li>
+          <li
+            class="py-1 px-3 rounded-md hover:bg-teal-600 hover:text-white hover:rounded-md transition ease-in-out delay-100"
+          >
+            <a href="#"><i class="fa-solid fa-user pr-2"></i>Akun</a>
+          </li>
+          <li
+            class="py-1 px-3 hover:scale-110 transition ease-in-out delay-100"
+          >
+            <div
+              class="profil-akun w-8 h-8 bg-teal-600 flex justify-center items-center rounded-full"
+            >
+              <img
+                class="w-7 h-7 rounded-full"
+                src="./images/profil_foto.JPG"
+                alt="Foto Profil"
+              />
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- akhir navigasi -->
+
+    <!-- konten -->
+
+    <!-- selamat datang -->
+    <h1 class="text-3xl font-bold text-center p-5 my-8">
+      Selamat Datang di SILASTRI
+    </h1>
+
+    <!-- informasi maintenance -->
+    <div
+      class="container md:w-2/4 mx-auto border-2 rounded-lg shadow-md text-center hover:shadow-lg"
+    >
+      <div
+        class="flex flex-col items-center px-5 py-3 justify-around items-start"
+      >
+        <img
+          src="./images/maintenance.jpg"
+          alt="Gambar Informasi Maintenance"
+          class="max-h-96"
+        />
+        <p class="text-2xl font-bold mt-5 mb-3">
+          Halaman Sedang Tidak Tersedia
+        </p>
+        <p class="text-lg">
+          Halaman sedang tidak tersedia atau sedang dalam perbaikan. Mohon coba
+          lagi nanti.
+        </p>
+        <div>
+          <div class="my-5 flex justify-center">
+            <button
+              class="bg-teal-600 text-white py-2 px-4 rounded-md hover:shadow-lg hover:bg-teal-700 transition ease-in-out delay-100"
+            >
+              <i class="fa-solid fa-chevron-left pr-1"></i>
+              Kembali ke Beranda
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir informasi maintenance -->
+
+    <!-- akhir konten -->
+
+    <!-- footer -->
+    <footer class="mt-10 pt-3">
+      <div
+        class="w-11/12 mx-auto container flex flex-col sm:flex-row justify-between"
+      >
+        <div class="sm:w-2/4 alamat p-3">
+          <p class="font-bold text-lg">UPT BLK Singosari</p>
+          <div class="kontak flex flex-col justify-center">
+            <div class="jalan flex py-1 items-center">
+              <i class="fa-solid fa-location-dot pr-3 fa-lg"></i>
+              <div>
+                <p>Jl. Raya Singosari, Song Song, Ardimulyo, Kec. Singosari,</p>
+                <p>Kabupaten Malang, Jawa Timur</p>
+              </div>
+            </div>
+            <div class="jalan flex py-1 items-center">
+              <i class="fa-solid fa-envelope pr-3 fa-lg"></i>
+              <p>65153</p>
+            </div>
+
+            <div class="jalan flex py-1 items-center">
+              <i class="fa-solid fa-phone pr-3 fa-lg"></i>
+              <p>0341 - 458055</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sm:w-5/12 p-3 sm:py-3 hubungi">
+          <div class="subscribe">
+            <p class="text-lg font-bold">Subscribe Rek!</p>
+            <p class="py-1">
+              Ikuti untuk informasi lowongan, pelatihan, dan berita kami.
+            </p>
+            <form action="#" method="get" class="py-1">
+              <input
+                class="py-2 px-4 rounded-md border mr-1"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Masukkan alamat email"
+              />
+              <button
+                type="submit"
+                class="bg-teal-600 text-white py-2 px-4 rounded-md mt-1 sm:mt-0"
+              >
+                Subscribe
+                <i class="fa-solid fa-chevron-right pl-1"></i>
+              </button>
+            </form>
+            <div class="py-3">
+              <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram fa-2xl px-3"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="w-11/12 mx-auto" />
+      <div class="w-11/12 mx-auto pt-1 pb-5">
+        <p>BLK Singosari &copy; 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
